@@ -13,7 +13,9 @@ public class A_FirstTask {
 			}
 		}
 		System.out.println(m);
+		
 		int[] ar = new int[args.length - m];
+		
 		for (int i = 0; i < args.length; i++) {
 			if ((args[i] % 2) != 0) {
 				ar[count] = i;

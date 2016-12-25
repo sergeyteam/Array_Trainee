@@ -8,7 +8,7 @@ public class MainFirst {
 		
 		
 		A_FirstTask ft = new A_FirstTask();
-		int [] arg = new int [100];
+		int [] arg = new int [20];
 		System.out.println(Arrays.toString(ft.first(arg)));
 		
 		
